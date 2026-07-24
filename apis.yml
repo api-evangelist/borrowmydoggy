@@ -1,7 +1,28 @@
 aid: borrowmydoggy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/borrowmydoggy.png
 name: BorrowMyDoggy
-description: BorrowMyDoggy is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BorrowMyDoggy is a UK-based platform that connects dog owners with trusted
+  local borrowers for dog walking, sitting, boarding, and holiday care. Owners
+  who cannot always be with their dog are matched with nearby dog lovers who
+  want to spend time with a dog without the full-time commitment, so dogs get
+  more walks, company, and care. Membership is free to join, with optional
+  Premium tiers for owners and borrowers that unlock messaging, insurance cover,
+  and a 24/7 vet line. The company operates a consumer web and mobile
+  application built on Ruby on Rails; it does not currently publish a public
+  developer API, SDKs, or developer documentation. This profile was surfaced as
+  a portfolio company of 500 Global and enriched from public web surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/borrowmydoggy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Pets
+- Dogs
+- Marketplace
+- Consumer
+- Sharing Economy
+- Community
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/borrowmydoggy-domain-security.yml
 - type: Website
   url: https://borrowmydoggy.com
+- type: Blog
+  url: https://www.borrowmydoggy.com/blog
+- type: Support
+  url: https://support.borrowmydoggy.com/en
+- type: Pricing
+  url: https://www.borrowmydoggy.com/membership
+- type: SignUp
+  url: https://www.borrowmydoggy.com/signup
+- type: Login
+  url: https://www.borrowmydoggy.com/signin
+- type: TermsOfService
+  url: https://www.borrowmydoggy.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.borrowmydoggy.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
